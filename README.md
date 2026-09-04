@@ -1,6 +1,9 @@
 # GolemioLocationGetter
 
 # Changelog
+- 20260904_1911
+  - udp sender socket bind fix to localhost
+
 - 20260904_1848
   - re-release
   

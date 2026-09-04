@@ -12,8 +12,8 @@ UdpSender::UdpSender(QObject *parent) :
     // to bind to an address and port using bind()
     // bool QAbstractSocket::bind(const QHostAddress & address,
     //     quint16 port = 0, BindMode mode = DefaultForPlatform)
-    socket->bind(QHostAddress("192.168.0.131"), 10001);  //musi byt vzdy stejne jako IP!
-    //socket->bind(QHostAddress("127.0.0.1"), 10001);
+    //socket->bind(QHostAddress("192.168.0.131"), 10001);  //musi byt vzdy stejne jako IP!
+    socket->bind(QHostAddress("127.0.0.1"), 10001);
     //  bindPorts()
     //socket->bind(QHostAddress::LocalHost, 61074);
     //   connect(socket, SIGNAL(readyRead()), this, SLOT(readyRead()));
