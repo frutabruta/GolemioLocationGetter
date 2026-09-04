@@ -1,0 +1,6 @@
+[submodule "GolemioClient"]
+	path = GolemioClient
+	url = https://github.com/frutabruta/GolemioClient
+[submodule "XmlRopidImportStream"]
+	path = XmlRopidImportStream
+	url = https://github.com/frutabruta/XmlRopidImportStream
